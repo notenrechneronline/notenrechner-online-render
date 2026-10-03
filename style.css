@@ -1,0 +1,77 @@
+/* Notenrechner Online – Cloudstack Mini-Sites. Clean, responsive, no external dependencies.
+   Render hub "Punkte & Notenschlüssel": deep-blue editorial theme with amber accents. */
+:root{
+  --bg:#f6f8fb; --card:#ffffff; --ink:#1e2a38; --muted:#5b6b7c;
+  --brand:#123f73; --brand-dark:#0c2c54; --brand-deep:#081f3d;
+  --accent:#e8a020; --accent-soft:#fdf3dd; --line:#e2e9f1;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.75; font-size:17px;
+}
+header.site{
+  background:linear-gradient(135deg,var(--brand-deep) 0%,var(--brand-dark) 45%,var(--brand) 100%);
+  color:#fff; padding:1.6rem 1rem 1.5rem; text-align:center; position:relative;
+}
+header.site::after{
+  content:""; display:block; height:4px; margin:1.1rem auto -1.5rem; max-width:880px;
+  background:linear-gradient(90deg,transparent,var(--accent) 20%,var(--accent) 80%,transparent);
+  border-radius:2px;
+}
+header.site .brand{font-size:1.4rem;font-weight:800;letter-spacing:.3px}
+header.site .tagline{font-size:.95rem;opacity:.85;margin-top:.25rem}
+nav.top{background:var(--brand-deep);box-shadow:0 2px 8px rgba(8,31,61,.25)}
+nav.top ul{list-style:none;margin:0 auto;padding:0;display:flex;flex-wrap:wrap;justify-content:center;max-width:1000px}
+nav.top li{margin:0}
+nav.top a{display:block;color:#e8eef6;text-decoration:none;padding:.7rem .95rem;font-size:.9rem;border-bottom:3px solid transparent}
+nav.top a:hover{color:#fff;background:rgba(255,255,255,.08)}
+nav.top a.active{color:#fff;border-bottom-color:var(--accent);font-weight:600}
+main{max-width:880px;margin:0 auto;padding:1.6rem 1rem 3rem}
+article.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:2rem;margin-bottom:1.6rem;box-shadow:0 4px 18px rgba(18,63,115,.06)}
+h1{font-size:1.9rem;line-height:1.25;color:var(--brand-deep);margin-top:0;letter-spacing:-.01em}
+h2{font-size:1.35rem;color:var(--brand-dark);margin-top:2.1rem;border-bottom:2px solid var(--line);padding-bottom:.4rem}
+h2::before{content:"";display:inline-block;width:.55em;height:.55em;background:var(--accent);border-radius:2px;margin-right:.5em;vertical-align:baseline}
+.cta h2::before,.more h3::before{content:none}
+h3{font-size:1.08rem;color:var(--brand);margin-top:1.5rem}
+p{margin:.9rem 0}
+a{color:var(--brand)}
+a:hover{color:#b97c12}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;font-size:.95rem;box-shadow:0 1px 6px rgba(18,63,115,.05);border-radius:8px;overflow:hidden}
+th,td{border:1px solid var(--line);padding:.6rem .8rem;text-align:left}
+th{background:var(--brand);color:#fff}
+tr:nth-child(even) td{background:#f2f6fb}
+.formula{background:#eef4fb;border-left:4px solid var(--brand);padding:.9rem 1.1rem;margin:1.2rem 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;border-radius:0 8px 8px 0;font-size:1.02rem}
+.example{background:var(--accent-soft);border:1px solid #f0d9a8;border-left:4px solid var(--accent);padding:1rem 1.2rem;margin:1.2rem 0;border-radius:0 8px 8px 0}
+.example strong.t{display:block;color:#8a5f10;margin-bottom:.4rem}
+.warn{background:#fdf0f0;border:1px solid #eec9c9;border-left:4px solid #c0392b;padding:1rem 1.2rem;margin:1.2rem 0;border-radius:0 8px 8px 0}
+figure.chart{margin:1.4rem 0;padding:1rem;background:#fbfdff;border:1px solid var(--line);border-radius:10px;text-align:center}
+figure.chart img{max-width:100%;height:auto;display:block;margin:0 auto}
+figure.chart figcaption{font-size:.85rem;color:var(--muted);margin-top:.6rem}
+.cta{background:linear-gradient(135deg,var(--brand) 0%,var(--brand-deep) 100%);color:#fff;border-radius:14px;padding:1.8rem 1.6rem;text-align:center;margin:2.2rem 0;box-shadow:0 6px 20px rgba(12,44,84,.25)}
+.cta h2{color:#fff;border:none;margin-top:0}
+.cta a.btn{display:inline-block;background:var(--accent);color:#2b1d00;font-weight:700;text-decoration:none;padding:.85rem 2rem;border-radius:9px;margin-top:.6rem;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.cta a.btn:hover{background:#f5b73c}
+.cta a.alt{color:#cfe0f4}
+.faq details{border:1px solid var(--line);border-radius:10px;margin:.6rem 0;background:#fff;transition:border-color .15s}
+.faq details[open]{border-color:var(--accent)}
+.faq summary{cursor:pointer;padding:.85rem 1.1rem;font-weight:600;color:var(--brand-dark);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"+";display:inline-block;width:1.4em;color:var(--accent);font-weight:800}
+.faq details[open] summary::before{content:"–"}
+.faq details div{padding:0 1.1rem 1.1rem}
+.more{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.3rem 1.5rem;box-shadow:0 4px 18px rgba(18,63,115,.06)}
+.more h3{margin-top:0}
+.more ul{margin:.4rem 0;padding-left:1.2rem}
+footer.site{background:var(--brand-deep);color:#c9d6e6;text-align:center;padding:1.5rem 1rem;font-size:.9rem;margin-top:2rem;border-top:4px solid var(--accent)}
+footer.site a{color:#fff}
+@media (max-width:640px){
+  body{font-size:16px}
+  h1{font-size:1.55rem}
+  article.card{padding:1.25rem}
+  table{font-size:.85rem}
+  th,td{padding:.45rem .55rem}
+  nav.top a{padding:.6rem .7rem;font-size:.85rem}
+}

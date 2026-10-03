@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" role="img" aria-label="IHK-Punkteskala von 100 bis 0 Punkten mit Noten 1 bis 6">
+<title>IHK-Punkteskala: 100 bis 92 Punkte Note 1, 91 bis 81 Note 2, 80 bis 67 Note 3, 66 bis 50 Note 4, 49 bis 30 Note 5, 29 bis 0 Note 6</title>
+<rect x="25" y="28" width="177" height="64" fill="#7f0000" rx="6"/>
+<rect x="202" y="28" width="118" height="64" fill="#c62828"/>
+<rect x="320" y="28" width="100.3" height="64" fill="#ef6c00"/>
+<rect x="420.3" y="28" width="82.6" height="64" fill="#d4a017"/>
+<rect x="502.9" y="28" width="64.9" height="64" fill="#66bb6a"/>
+<rect x="567.8" y="28" width="47.2" height="64" fill="#2e7d32" rx="6"/>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle" fill="#ffffff">
+<text x="113.5" y="56" font-size="22" font-weight="bold">6</text>
+<text x="113.5" y="76" font-size="12">29–0</text>
+<text x="261" y="56" font-size="22" font-weight="bold">5</text>
+<text x="261" y="76" font-size="12">49–30</text>
+<text x="370.2" y="56" font-size="22" font-weight="bold">4</text>
+<text x="370.2" y="76" font-size="12">66–50</text>
+<text x="461.6" y="56" font-size="22" font-weight="bold">3</text>
+<text x="461.6" y="76" font-size="12">80–67</text>
+<text x="535.4" y="56" font-size="22" font-weight="bold">2</text>
+<text x="535.4" y="76" font-size="12">91–81</text>
+<text x="591.4" y="56" font-size="22" font-weight="bold">1</text>
+<text x="591.4" y="76" font-size="12">100–92</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#5b6b7c" text-anchor="middle">
+<text x="25" y="112">0</text>
+<text x="202" y="112">30</text>
+<text x="320" y="112">50</text>
+<text x="420.3" y="112">67</text>
+<text x="502.9" y="112">81</text>
+<text x="567.8" y="112">92</text>
+<text x="615" y="112">100</text>
+</g>
+<text x="320" y="140" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1f2a37" text-anchor="middle">IHK-Notenschlüssel: Punkte in Noten umrechnen (100-Punkte-System)</text>
+</svg>

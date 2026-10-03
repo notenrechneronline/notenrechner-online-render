@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://notenrechner-online.onrender.com/sitemap.xml
