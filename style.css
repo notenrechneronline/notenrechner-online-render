@@ -75,3 +75,14 @@ footer.site a{color:#fff}
   th,td{padding:.45rem .55rem}
   nav.top a{padding:.6rem .7rem;font-size:.85rem}
 }
+
+/* Ressourcen / Downloads */
+.ressourcen { margin: 2.5rem 0; padding: 1.5rem; background: var(--card, #ffffff); border: 1px solid var(--line, #e2e9f1); border-radius: 12px; }
+.ressourcen h2 { margin-top: 0; }
+.ressourcen h2::before { content: none; }
+.resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 1rem; }
+.resource { border: 1px solid var(--line, #e2e9f1); border-radius: 10px; overflow: hidden; background: #fff; display: flex; flex-direction: column; margin: 0; }
+.resource img { width: 100%; height: auto; display: block; }
+.resource figcaption { padding: .75rem 1rem; font-size: .95rem; color: var(--ink, #1e2a38); flex: 1; }
+.download-btn { display: inline-block; margin: .5rem 1rem 1rem; padding: .65rem 1.1rem; background: var(--brand, #123f73); color: #fff !important; border-radius: 8px; text-decoration: none; font-weight: 700; text-align: center; }
+.download-btn:hover { background: var(--brand-dark, #0c2c54); color: #fff; }

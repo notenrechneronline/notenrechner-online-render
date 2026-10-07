@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://notenrechner-online.onrender.com/index.html</loc>
     <lastmod>2026-10-03</lastmod>
-  </url>
+  
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/ihk-notenschluessel-100-punkte-tabelle.png</image:loc></image:image>
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/punkte-in-noten-15-punkte-tabelle-oberstufe.png</image:loc></image:image>
+</url>
   <url>
     <loc>https://notenrechner-online.onrender.com/15-punkte-system-oberstufe.html</loc>
     <lastmod>2026-10-03</lastmod>
-  </url>
+  
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/punkte-in-noten-15-punkte-tabelle-oberstufe.png</image:loc></image:image>
+</url>
   <url>
     <loc>https://notenrechner-online.onrender.com/ihk-100-punkte-tabelle.html</loc>
     <lastmod>2026-10-03</lastmod>
-  </url>
+  
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/ihk-notenschluessel-100-punkte-tabelle.png</image:loc></image:image>
+</url>
   <url>
     <loc>https://notenrechner-online.onrender.com/punkte-in-prozent-umrechnen.html</loc>
     <lastmod>2026-10-03</lastmod>
-  </url>
+  
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/noten-in-prozent-tabelle-linear.png</image:loc></image:image>
+</url>
   <url>
     <loc>https://notenrechner-online.onrender.com/muendliche-ergaenzungspruefung-ihk.html</loc>
     <lastmod>2026-10-03</lastmod>
-  </url>
+  
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/ihk-notenschluessel-100-punkte-tabelle.png</image:loc></image:image>
+</url>
   <url>
     <loc>https://notenrechner-online.onrender.com/sperrfaecher-ausgleich-ihk.html</loc>
     <lastmod>2026-10-03</lastmod>
-  </url>
+  
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/ihk-notenschluessel-100-punkte-tabelle.png</image:loc></image:image>
+</url>
   <url>
     <loc>https://notenrechner-online.onrender.com/notenschluessel-erstellen.html</loc>
     <lastmod>2026-10-03</lastmod>
-  </url>
+  
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/noten-in-prozent-tabelle-linear.png</image:loc></image:image>
+    <image:image><image:loc>https://notenrechner-online.onrender.com/assets/ihk-notenschluessel-100-punkte-tabelle.png</image:loc></image:image>
+</url>
 </urlset>
